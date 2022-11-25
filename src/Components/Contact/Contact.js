@@ -4,6 +4,8 @@ import { AiFillMail } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 import {useRef} from 'react'
 import emailjs from 'emailjs-com'
+import Location from "./Location";
+
 const Contact = () => {
   const form=useRef();
   const sendEmail = (e) => {
@@ -11,8 +13,12 @@ const Contact = () => {
     emailjs.sendForm('service_lmxm12a', 'template_oa3rys4', form.current, 'ZQdKR_ciGmsXFn-DV')
       e.target.reset();
   };
-  return (
+  return <>
+  
     <section id="contact">
+    
+    <Location/>
+
       <h5>Get in Touch</h5>
       <h2>Contact me</h2>
       <div className="container contact_container">
@@ -41,7 +47,7 @@ const Contact = () => {
 
       </div>
     </section>
-  );
+    </>
 };
 
 export default Contact;
