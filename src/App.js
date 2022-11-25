@@ -7,6 +7,7 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import { Routes,Route } from 'react-router-dom';
 import Contact from './Components/Contact/Contact';
+import Warden from './Components/Warden/Warden';
 // import Home from './Components/Home/Home'
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
   
   <Routes>
     <Route exact path="/" element={<First/>}/>
-    <Route  exact path="/home" element={<><Navbar/><Home/></>}/>
+    <Route  exact path="/home" element={<><Navbar/><Home/><Warden/></>}/>
     <Route exact path="/contact" element={<><Navbar/><Contact/></>}/>
   </Routes>
   </BrowserRouter>
