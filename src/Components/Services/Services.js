@@ -8,7 +8,7 @@ function Services() {
   return (
     <div>
     <div>Services</div>
-    <Row style={{ marginLeft:150}}>
+    <Row style={{ marginLeft:150,marginBottom:50,marginTop:50}}>
     <Col sm="4">
     <Card
   style={{
