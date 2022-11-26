@@ -3,6 +3,9 @@
     margin-top: 20px;
     margin-bottom: 50px;
     color:rgb(11, 110, 143);
+    
+        
+    
 }
 .container.contact_container{
     width: 58%;
@@ -72,4 +75,12 @@ input,textarea{
     border:2px solid rgb(11, 110, 143);
     background-color: rgb(11, 110, 143);
     font-weight: bold;
+}
+.con{
+    background-image: url("../../images/back4.jpeg");
+      background-repeat:no-repeat;
+      background-size: 1680px 1000px;
+      border:5px solid rgb(11, 110, 143);
+      border-radius: 2px;
+  
 }
