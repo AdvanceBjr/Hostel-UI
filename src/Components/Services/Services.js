@@ -1,12 +1,15 @@
 import React from 'react'
 import {Card,CardBody,CardTitle,CardText, Row, Col,Button} from 'reactstrap';
-
+import fit1 from "../../images/foodd.jpg";
+import fit2 from "../../images/wwifi.jpg";
+import fit3 from "../../images/outingdd.jpg";
+import "./services.css";
 function Services() {
   return (
     <div>
     <div>Services</div>
-    <Row style={{ marginLeft:250}}>
-    <Col sm="3">
+    <Row style={{ marginLeft:150}}>
+    <Col sm="4">
     <Card
   style={{
     width: '18rem'
@@ -19,8 +22,9 @@ function Services() {
   </CardBody>
   <img 
     alt="Card cap"
-    src="https://picsum.photos/318/180"
+    src={fit1}
     width="100%"
+    style={{height:200}}
   />
   <CardBody>
     <CardText>
@@ -32,7 +36,7 @@ function Services() {
   </CardBody>
 </Card>
 </Col>
-<Col sm="3">
+<Col sm="4">
      <Card
   style={{
     width: '18rem'
@@ -45,8 +49,9 @@ function Services() {
   </CardBody>
   <img
     alt="Card cap"
-    src="https://picsum.photos/318/180"
+    src={fit2}
     width="100%"
+    style={{height:200}}
   />
   <CardBody>
     <CardText>
@@ -71,8 +76,9 @@ function Services() {
   </CardBody>
   <img
     alt="Card cap"
-    src="https://picsum.photos/318/180"
+    src={fit3}
     width="100%"
+    style={{height:200}}
   />
   <CardBody>
     <CardText>
