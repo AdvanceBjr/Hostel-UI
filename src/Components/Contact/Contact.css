@@ -1,6 +1,6 @@
 .head{
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 50px;
     color:rgb(11, 110, 143);
     
@@ -19,14 +19,15 @@
     gap:1.2rem;
 }
 .contact_option{
-    /* background: black; */
+    
     border-width: 100px;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 2px solid rgb(11, 110, 143);
-    transition: var(--transition);
+    
 }
+
 
 .icon1{
     font-size: 1.5rem;
@@ -44,11 +45,13 @@ input,textarea{
     width:100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    /* background: transparent; */
+    background: transparent;
     border: 2px solid rgb(11, 110, 143);
     resize: none;
     /* color:var(--color-white) */
 }
+
+
 
 @media screen and (max-width:1024px) {
    .container.contact_container{
@@ -73,14 +76,20 @@ input,textarea{
 }
 .btn{
     border:2px solid rgb(11, 110, 143);
-    background-color: rgb(11, 110, 143);
+    
+     background-color:rgb(11, 110, 143) ;
+     color: white;
     font-weight: bold;
 }
+.btn:hover{
+    border:2px solid rgb(11, 110, 143);
+}
 .con{
-    background-image: url("../../images/back4.jpeg");
+    /* background-image: url("../../images/back7.jpg"); */
       background-repeat:no-repeat;
       background-size: 1680px 1000px;
-      border:5px solid rgb(11, 110, 143);
-      border-radius: 2px;
+      /* border:5px solid rgb(11, 110, 143); */
+      /* border-radius: 2px; */
+      padding-bottom: 30px;
   
 }

@@ -17,21 +17,21 @@ const Navbar = () => {
         </a>
       </logo>
       <ul class="topnav">
-        <li>
-          <a href="/home">Government Women's Engineering College<br/>Makhupura (Ajmer), 305002</a>
+        <li >
+          <Link  to="/home">Government Women's Engineering College<br/>Makhupura (Ajmer), 305002</Link>
         </li>
-        <li>
-        <a href="/home">Home</a>
+        <li >
+        <Link style={{fontSize:"20px"}}to="/home">Home</Link>
         
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <Link style={{fontSize:"20px"}} to="/contact">Contact</Link>
           
         </li>
-        <li>
+        {/* <li>
           <button >Login</button>
           
-        </li>
+        </li> */}
       </ul>
     </Nav>
   

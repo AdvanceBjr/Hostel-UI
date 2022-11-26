@@ -8,7 +8,7 @@ const First = () => {
   return (
     <>
       <div>
-        <img className="img1" src={First1} />
+        <img className="img12" src={First1} />
         <Link  to="/home">
         <div className="bottom1">
           <img className="logo" src={stud} />
