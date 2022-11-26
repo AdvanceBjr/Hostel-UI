@@ -1,99 +1,59 @@
 import React from 'react'
-import {Card,CardBody,CardTitle,CardText, Row, Col,Button} from 'reactstrap';
-import fit1 from "../../images/foodd.jpg";
-import fit2 from "../../images/wwifi.jpg";
-import fit3 from "../../images/outingdd.jpg";
+import { Card, CardBody, CardTitle, CardText, Row, Col, Button } from 'reactstrap';
 import "./services.css";
-function Services() {
+import Serviceslist from './Serviceslist';
+import { MDBRipple } from 'mdb-react-ui-kit';
+import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem } from 'mdb-react-ui-kit';
+const Services = () => {
+
   return (
-    <div>
-    <div>Services</div>
-    <Row style={{ marginLeft:150,marginBottom:50,marginTop:50}}>
-    <Col sm="4">
-    <Card
-  style={{
-    width: '18rem'
-  }}
->
-  <CardBody>
-    <CardTitle tag="h5" style={{textAlign:'center'}}>
-      Food Corner
-    </CardTitle>
-  </CardBody>
-  <img 
-    alt="Card cap"
-    src={fit1}
-    width="100%"
-    style={{height:200}}
-  />
-  <CardBody>
-    <CardText>
-      Some quick example text to build on the card title and make up the bulk of the card‘s content.
-    </CardText>
-    <Button style={{marginLeft:70}}>
-      Enquire Now
-    </Button>
-  </CardBody>
-</Card>
-</Col>
-<Col sm="4">
-     <Card
-  style={{
-    width: '18rem'
-  }}
->
-  <CardBody>
-    <CardTitle tag="h5" style={{textAlign:'center'}}>
-      Wifi
-    </CardTitle>
-  </CardBody>
-  <img
-    alt="Card cap"
-    src={fit2}
-    width="100%"
-    style={{height:200}}
-  />
-  <CardBody>
-    <CardText>
-      Some quick example text to build on the card title and make up the bulk of the card‘s content.
-    </CardText>
-    <Button style={{marginLeft:70}}>
-      Enquire Now
-    </Button>
-  </CardBody>
-</Card> 
-</Col>
-<Col sm="3">
-     <Card
-  style={{
-    width: '18rem'
-  }}
->
-  <CardBody>
-    <CardTitle tag="h5" style={{textAlign:'center'}}>
-      Outing
-    </CardTitle>
-  </CardBody>
-  <img
-    alt="Card cap"
-    src={fit3}
-    width="100%"
-    style={{height:200}}
-  />
-  <CardBody>
-    <CardText>
-      Some quick example text to build on the card title and make up the bulk of the card‘s content.
-    </CardText>
-    <Button style={{marginLeft:70}}>
-      Enquire Now
-    </Button>
-  </CardBody>
-</Card> 
-</Col>
+    <>
+      <div className='sam'>
+        <h3 >Services</h3>
+        <p >Basic needs of every hostelite</p>
+      </div>
+      <Row>
+        {
+          Serviceslist.map((event) => (
+            <Col xs="3">
+              <MDBRipple rippleTag='div' className='bg-image hover-overlay hover-zoom hover-shadow'>
+                <Card
+                  style={{
+                    width: '18rem', marginLeft: 35
+                  }}
+                >
+                  <CardBody>
+                    <CardTitle tag="h5" style={{ textAlign: 'center' }}>
+                      {event.name}
+                    </CardTitle>
+                  </CardBody>
+                  <img src={event.image_link} alt="Could not load image" style={{ width: '18rem', height: 200 }} className='w-100' />
+                  <CardBody>
+                    <Button style={{ width: '100%' }}>
+                      Enquire Now
+                    </Button>
 
-</Row>
-    </div>
+                  </CardBody>
+
+                </Card>
+                <div className='mask' style={{ backgroundColor: 'rgba(57, 192, 237, 0.2)' }}></div>
+              </MDBRipple>
+              <div style={{ width: '18rem', marginLeft: 35, marginTop: 20, marginBottom: 30 }}>
+                {event.content}
+              </div>
+            </Col>
+          ))
+        }
+      </Row>
+      <MDBDropdown group className='shadow-0' style={{marginTop:10,marginBottom:15,marginLeft:700}}>
+        <MDBDropdownToggle color='link'>View More</MDBDropdownToggle>
+        {/* <MDBDropdownMenu>
+          <MDBDropdownItem link>Action</MDBDropdownItem>
+          <MDBDropdownItem link>Another action</MDBDropdownItem>
+          <MDBDropdownItem link>Something else here</MDBDropdownItem>
+        </MDBDropdownMenu> */}
+      </MDBDropdown>
+    </>
   )
-}
-
+};
 export default Services
