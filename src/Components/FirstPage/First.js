@@ -9,13 +9,13 @@ const First = () => {
     <>
       <div>
         <img className="img12" src={First1} />
-        <Link  to="/home">
+        <Link  to="/student">
         <div className="bottom1">
           <img className="logo" src={stud} />
           Entered as a Student
         </div>
         </Link>
-        <Link to="/home">
+        <Link to="/warden">
         <div className='bottom2'>
             <img className="logo1" src={war}/>
             Entered as a Warden

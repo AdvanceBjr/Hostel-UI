@@ -10,7 +10,8 @@ import Contact from './Components/Contact/Contact';
 import Warden from './Components/Warden/Warden';
 import Docu from './Components/Document/Docu'
 import Location from './Components/Contact/Location';
-// import Home from './Components/Home/Home'
+import Footer from './Components/Footer/Footer'
+import Services from './Components/Services/Services';
 function App() {
   return (
   <div className="App">
@@ -21,8 +22,10 @@ function App() {
     <Route exact path="/" element={<First/>}/>
      
      
-    <Route  exact path="/home" element={<><Navbar/><Home/><Warden/><Docu/></>}/>
-    <Route exact path="/contact" element={<><Navbar/><Location/><Contact/></>}/>
+    <Route  exact path="/warden" element={<><Navbar/><Home/><Warden/><Docu/><Footer/></>}/>
+    <Route  exact path="/student" element={<><Navbar/><Home/><Services/><Footer/></>}/>
+    
+    <Route exact path="/contact" element={<><Navbar/><Location/><Contact/><Footer/></>}/>
   </Routes>
   </BrowserRouter>
   
