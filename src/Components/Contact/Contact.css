@@ -7,6 +7,12 @@
         
     
 }
+.iframe{
+    width: 80%;
+    margin-left: 10%;
+   border :1px solid rgb(11, 110, 143);
+    
+}
 .container.contact_container{
     width: 58%;
     display: grid;

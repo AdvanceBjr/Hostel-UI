@@ -2,7 +2,7 @@ import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Navbar.css"
-
+import {Link} from "react-router-dom"
 import Nav from "react-bootstrap/Nav";
 
 import { MDBCol, MDBIcon, MDBDropdown, MDBDropdownToggle, MDBDropdownItem, MDBDropdownMenu } from "mdb-react-ui-kit";

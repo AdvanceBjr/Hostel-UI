@@ -9,6 +9,7 @@ import { Routes,Route } from 'react-router-dom';
 import Contact from './Components/Contact/Contact';
 import Warden from './Components/Warden/Warden';
 import Docu from './Components/Document/Docu'
+import Location from './Components/Contact/Location';
 // import Home from './Components/Home/Home'
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
      
      
     <Route  exact path="/home" element={<><Navbar/><Home/><Warden/><Docu/></>}/>
-    <Route exact path="/contact" element={<><Navbar/><Contact/></>}/>
+    <Route exact path="/contact" element={<><Navbar/><Location/><Contact/></>}/>
   </Routes>
   </BrowserRouter>
   
