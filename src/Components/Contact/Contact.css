@@ -1,3 +1,13 @@
+body{
+    background-color: rgba(53, 164, 223, 0.385);
+}
+.iframe{
+    width: 80%;
+    margin-left: 10%;
+   
+    
+}
+
 .container.contact_container{
     width: 58%;
     display: grid;
