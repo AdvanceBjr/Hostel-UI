@@ -45,14 +45,15 @@ const Services = () => {
           ))
         }
       </Row>
-      <MDBDropdown group className='shadow-0' style={{marginTop:10,marginBottom:15,marginLeft:700}}>
+       <MDBDropdown group className='shadow-0' style={{marginTop:10,marginBottom:15,marginLeft:700}}>
         <MDBDropdownToggle color='link'>View More</MDBDropdownToggle>
-        {/* <MDBDropdownMenu>
+        <MDBDropdownMenu>
           <MDBDropdownItem link>Action</MDBDropdownItem>
           <MDBDropdownItem link>Another action</MDBDropdownItem>
           <MDBDropdownItem link>Something else here</MDBDropdownItem>
-        </MDBDropdownMenu> */}
-      </MDBDropdown>
+        </MDBDropdownMenu>
+      </MDBDropdown> 
+   
     </>
   )
 };
