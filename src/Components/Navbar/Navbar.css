@@ -51,18 +51,17 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {
-    background-color: #1C3879;
-    color: white;
-    font-weight: 600;
+    /* background-color: #1C3879; */
+    color:white ;
+    font-weight: bolder;
+    /* font-size: 25px; */
 }
 
-.topnav li:active {
-    background-color: #1C3879;
-    color: white;
-    font-weight: 600;
-}
 
-ul.topnav li.right {
+.anja:active{
+    color:#1C3879
+}
+.topnav li.right {
     float: right;
 }
 

@@ -19,27 +19,21 @@ const Navbar = () => {
         </a>
       </logo>
       <ul class="topnav">
-        <li>
-          <a href="/home">GWECA</a>
+        <li >
+          <Link  to="/home">Government Women's Engineering College<br/>Makhupura (Ajmer), 305002</Link>
+        </li>
+        <li >
+        <Link style={{fontSize:"20px"}}to="/home">Home</Link>
+        
         </li>
         <li>
-          <a href="/home">Home</a>
-
+          <Link style={{fontSize:"20px"}} to="/contact">Contact</Link>
+          
         </li>
-        <li>
-          <a href="/contact">Contact</a>
-
-        </li>
-
-        <MDBCol md="6">
-          <form className="form-inline mt-4 mb-4">
-            <input className="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search" />
-          </form>
-        </MDBCol>
-
-        <li>
-          <MDBIcon icon="user" color='white' />
-        </li>
+        {/* <li>
+          <button >Login</button>
+          
+        </li> */}
       </ul>
     </Nav>
 

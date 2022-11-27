@@ -1,3 +1,6 @@
-/* .App {
-  background-color: #274ea959;
-} */
+.App {
+  background-image:url("./images/back7.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  border: 3px solid rgb(11, 110, 143);
+}
