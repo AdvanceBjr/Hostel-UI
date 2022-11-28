@@ -63,7 +63,7 @@ const Contact = () => {
             placeholder="Your message"
             required
           />
-          <button type="submit" className="btn">
+          <button type="submit" className="btni">
             Send Message
           </button>
         </form>

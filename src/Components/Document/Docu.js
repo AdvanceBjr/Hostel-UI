@@ -5,10 +5,10 @@ import FEE from "../../images/pdf.pdf"
 const Docu = () => {
   return (
     <div className='doc'>
-        <a style={{textDecoration:"none"}} href={FEE}download><h2 className='abc'>Fee Details</h2></a>
+        <a style={{textDecoration:"none"}} href={FEE}download><h4 className='abc'>Fee Details</h4></a>
         
-        <h2  className='abc'>Mess Menu</h2>
-        <h2  className='abc'>Outing Schedule</h2>
+        <h4  className='abc'>Mess Menu</h4>
+        <h4  className='abc'>Outing Schedule</h4>
     </div>
   )
 }

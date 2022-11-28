@@ -1,0 +1,36 @@
+.meet{
+    border-radius: 50%;
+width:250px;
+height:250px;
+padding-bottom: 5px;
+border: 1px solid #ddd;
+    padding: 5px;
+    margin-top: 30px;
+    box-shadow: 0 0 2px 2px  rgb(11, 110, 143);
+}
+
+.divi{
+    display: flex;
+    justify-content: center;
+}
+.boxi{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2.5rem;
+    margin-left: 200px;
+    border-bottom: 3px solid rgb(11, 110, 143);
+}
+.wer{
+    display: flex;
+    justify-content: center;
+    border:1px solid brown;
+    margin-left:80px;
+    width:100px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.weri{
+    margin-top: 25px;
+}
