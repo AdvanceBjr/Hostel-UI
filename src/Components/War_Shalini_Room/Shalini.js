@@ -60,37 +60,37 @@ const Shalini = () => {
           Rooms under Shalini Agarwal
         </h3>
         <div className="boxi">
-          <Link to="/201">
+          <Link to="/shalroom">
             <div className="weri">
               <h5 className="wer">201</h5>
               <img src={door} />
             </div>
           </Link>
-          <Link to="/202">
+          <Link to="/shalroom">
             <div className="weri">
               <h5 className="wer">202</h5>
               <img src={door} />
             </div>
           </Link>
-          <Link to="/203">
+          <Link to="/shalroom">
             <div className="weri">
               <h5 className="wer">203</h5>
               <img src={door} />
             </div>
           </Link>
-          <Link to="/204">
+          <Link to="/shalroom">
             <div className="weri">
               <h5 className="wer">204</h5>
               <img src={door} />
             </div>
           </Link>
-          <Link to="/205">
+          <Link to="/shalroom">
             <div className="weri">
               <h5 className="wer">205</h5>
               <img src={door} />
             </div>
           </Link>
-          <Link to="/206">
+          <Link to="/shalroom">
             <div className="weri">
               <h5 className="wer">206</h5>
               <img src={door} />

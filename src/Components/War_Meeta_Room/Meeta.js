@@ -53,7 +53,7 @@ const Meeta = () => {
       <div>
         <h3
           style={{
-            // paddingLeft: "500px",
+            paddingLeft: "600px",
             color: "black",
             paddingTop: "10px",
             textDecoration: "underline ",
@@ -62,36 +62,36 @@ const Meeta = () => {
           Rooms under Meeta Sharma
         </h3>
         <div className="boxi">
-            <Link to="/301">
+            <Link to="/meetroom">
             <div className="weri">
           <h5 className="wer">301</h5>
             <img src={door}  />
           </div></Link>
-          <Link to="/302">
+          <Link to="/meetroom">
           <div className="weri">
             <h5 className="wer">302</h5>
             <img src={door} />
           </div>
           </Link>
-          <Link to="/303">
+          <Link to="/meetroom">
           <div className="weri">
             <h5 className="wer">303</h5>
             <img src={door} />
           </div>
           </Link>
-          <Link to="/304">
+          <Link to="/meetroom">
           <div className="weri">
             <h5 className="wer">304</h5>
             <img src={door} />
           </div>
           </Link>
-           <Link to="/305">
+           <Link to="/meetroom">
           <div className="weri">
             <h5 className="wer">305</h5>
             <img src={door} />
           </div>
           </Link>
-           <Link to="/306">
+           <Link to="/meetroom">
           <div className="weri">
             <h5 className="wer">306</h5>
             <img src={door} />

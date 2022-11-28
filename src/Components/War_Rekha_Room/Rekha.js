@@ -58,36 +58,36 @@ const Rekha = () => {
           Rooms under Rekha Chahar
         </h3>
         <div className="boxi">
-            <Link to="/101">
+            <Link to="/rekhroom">
             <div className="weri">
           <h5 className="wer">101</h5>
             <img src={door}  />
           </div></Link>
-          <Link to="/102">
+          <Link to="/rekhroom">
           <div className="weri">
             <h5 className="wer">102</h5>
             <img src={door} />
           </div>
           </Link>
-          <Link to="/103">
+          <Link to="/rekhroom">
           <div className="weri">
             <h5 className="wer">103</h5>
             <img src={door} />
           </div>
           </Link>
-          <Link to="/104">
+          <Link to="/rekhroom">
           <div className="weri">
             <h5 className="wer">104</h5>
             <img src={door} />
           </div>
           </Link>
-           <Link to="/105">
+           <Link to="/rekhroom">
           <div className="weri">
             <h5 className="wer">105</h5>
             <img src={door} />
           </div>
           </Link>
-           <Link to="/106">
+           <Link to="/rekhroom">
           <div className="weri">
             <h5 className="wer">106</h5>
             <img src={door} />
