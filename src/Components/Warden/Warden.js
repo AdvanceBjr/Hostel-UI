@@ -11,7 +11,7 @@ import {Link} from "react-router-dom";
 const Warden = () => {
   return <>
   <div className='war'>
-    <h3> Wardens</h3>
+    <h3 className='jkl'> Wardens</h3>
     <div className='car'>
     <img className='img1' src={swe}/>
    

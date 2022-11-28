@@ -53,7 +53,7 @@ const Meeta = () => {
       <div>
         <h3
           style={{
-            paddingLeft: "600px",
+            // paddingLeft: "500px",
             color: "black",
             paddingTop: "10px",
             textDecoration: "underline ",
