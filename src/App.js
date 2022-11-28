@@ -12,6 +12,7 @@ import Docu from './Components/Document/Docu'
 import Location from './Components/Contact/Location';
 import Footer from './Components/Footer/Footer'
 import Services from './Components/Services/Services';
+import Student from './Components/Student/Student';
 function App() {
   return (
   <div className="App">
@@ -22,7 +23,7 @@ function App() {
     <Route exact path="/" element={<First/>}/>
      
      
-    <Route  exact path="/warden" element={<><Navbar/><Home/><Warden/><Docu/><Footer/></>}/>
+    <Route  exact path="/warden" element={<><Navbar/><Home/><Student/><Warden/><Docu/><Footer/></>}/>
     <Route  exact path="/student" element={<><Navbar/><Home/><Services/><Footer/></>}/>
     
     <Route exact path="/contact" element={<><Navbar/><Location/><Contact/><Footer/></>}/>

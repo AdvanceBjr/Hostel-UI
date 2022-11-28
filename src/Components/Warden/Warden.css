@@ -51,7 +51,7 @@ border: 1px solid #ddd;
     box-shadow: 0 0 2px 2px  rgb(11, 110, 143);
   }
   .war{
-      background-image: url("../../images/back4.jpeg");
+      /* background-image: url("../../images/back4.jpeg"); */
       background-repeat:no-repeat;
       background-size: 1680px 1000px;
       /* border:5px solid rgb(11, 110, 143); */
