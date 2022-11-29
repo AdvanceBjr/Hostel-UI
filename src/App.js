@@ -11,11 +11,11 @@ import Warden from './Components/Warden/Warden';
 import Docu from './Components/Document/Docu'
 import Location from './Components/Contact/Location';
 import Footer from './Components/Footer/Footer';
-
+import Services from './Components/Services/Services';
 import Meeta from './Components/War_Meeta_Room/Meeta';
 import ShaliniRoom from './Components/War_Shalini_Room/Shalini_Room';
 import RekhaRoom from './Components/War_Rekha_Room/Rekha_Room';
-import MeetaRoom from './Components/War_Meeta_Room/Meeta_Room';
+import MeetaRoom from './Components/War_Meeta_Room/MeetaRoom';
 
 import Rekha from './Components/War_Rekha_Room/Rekha';
 
@@ -46,9 +46,9 @@ function App() {
     
     
     <Route exact path="/shalini" element={<><Navbar/><Shalini/><Footer/></>}/>
-    <Route exact path='/shalroom' elemnt={<><Navbar/><ShaliniRoom/><Footer/></>}/>
-    <Route exact path='/rekhroom' elemnt={<><Navbar/><RekhaRoom/><Footer/></>}/>
-    <Route exact path='/meetroom' elemnt={<><Navbar/><MeetaRoom/><Footer/></>}/>
+    <Route exact path='/shalroom' element={<><Navbar/><ShaliniRoom/><Footer/></>}/>
+    <Route exact path='/rekhroom' element={<><Navbar/><RekhaRoom/><Footer/></>}/>
+    <Route exact path='/meetroom' element={<><Navbar/><MeetaRoom/><Footer/></>}/>
     
     
   </Routes>

@@ -20,20 +20,17 @@ const Navbar = () => {
       </logo>
       <ul class="topnav">
         <li >
-          <Link  to="/home">Government Women's Engineering College<br/>Makhupura (Ajmer), 305002</Link>
+          <Link  to="/home">Women's Engineering College Ajmer</Link>
         </li>
         <li >
-        <Link style={{fontSize:"20px"}}to="/home">Home</Link>
+        <Link to="/home">Home</Link>
         
         </li>
         <li>
-          <Link style={{fontSize:"20px"}} to="/contact">Contact</Link>
+          <Link  to="/contact">Contact</Link>
           
         </li>
-        {/* <li>
-          <button >Login</button>
-          
-        </li> */}
+    
       </ul>
     </Nav>
 
